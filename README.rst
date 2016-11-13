@@ -9,13 +9,13 @@ Set up
     INSTALLED_APPS = [
         ...
         'rest_framework',
-        'django_feedback_json',
+        'django_feedback_api',
     ]
 
 `urls.py`::
 
     urlpatterns = [
         ...
-        url(r'^api/', include('django_feedback_json.urls')),
+        url(r'^api/', include('django_feedback_api.urls')),
     ]
 
