@@ -1,0 +1,5 @@
+.idea/
+manage.py
+dj_feedback_api
+db.sqlite3
+*.pyc
