@@ -1,6 +1,8 @@
-# Django FeedBack JSON
+Django FeedBack JSON
+====================
 
-## Set up
+Set up
+------
 
 `settings.py`::
 
