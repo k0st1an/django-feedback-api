@@ -3,3 +3,6 @@ manage.py
 dj_feedback_api
 db.sqlite3
 *.pyc
+dist/
+django_feedback_api.egg-info/
+.DS_Store
