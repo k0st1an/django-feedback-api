@@ -11,9 +11,10 @@ class FeedBack(models.Model):
     ip = models.GenericIPAddressField()
     name = models.CharField(max_length=254)
     url = models.URLField()
-    email = models.EmailField()
+    form_name = models.CharField(max_length=50)
+    email = models.EmailField(blank=True)
     phone_number = models.CharField(max_length=15, blank=True)
-    message = models.TextField()
+    message = models.TextField(blank=True)
 
     def get_saved_data(self):
         return {
@@ -22,6 +23,7 @@ class FeedBack(models.Model):
             'ip': self.ip,
             'name': self.name,
             'url': self.url,
+            'form_name': self.form_name,
             'email': self.email,
             'phone_number': self.phone_number,
             'message': self.message
