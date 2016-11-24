@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-feedback-api',
-    version='0.0.1',
+    version='0.2.0',
     author='Konstantin Kruglov',
     author_email='kruglovk@gmail.com',
     description='RestAPI',
