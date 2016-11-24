@@ -6,6 +6,8 @@ from django.db import models
 class FeedBack(models.Model):
     class Meta:
         ordering = ('-created',)
+        verbose_name = 'Feed Back'
+        verbose_name_plural = 'Feed Backs'
 
     created = models.DateTimeField(auto_now_add=True)
     ip = models.GenericIPAddressField()
