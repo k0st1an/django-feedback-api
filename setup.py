@@ -13,7 +13,7 @@ setup(
     license='Apache License Version 2.0',
     install_requires=[
         'Django==1.10.3',
-        'djangorestframework==3.5.3'
+        'djangorestframework==3.9.1'
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
