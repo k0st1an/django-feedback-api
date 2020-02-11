@@ -12,7 +12,7 @@ setup(
     packages=find_packages(exclude=['dj_feedback_api']),
     license='Apache License Version 2.0',
     install_requires=[
-        'Django==1.10.3',
+        'Django==1.11.28',
         'djangorestframework==3.5.3'
     ],
     classifiers=[
